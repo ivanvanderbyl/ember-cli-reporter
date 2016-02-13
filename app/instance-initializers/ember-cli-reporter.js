@@ -31,6 +31,10 @@ if (enabled) {
 
   Ember.onerror = (error) => {
     notify(error);
+
+    // TODO(mmun): Ember does not log the error if Ember.onerror is defined,
+    // though it probably should to align with the behaviour of window.onerror.
+    Ember.Logger.error(error.stack);
   };
 
   // TODO(mmun): Bugsnag registers itself onto window.onerror. It does a
