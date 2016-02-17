@@ -1,26 +1,7 @@
-# Ember-cli-reporter
+# Ember CLI Reporter
 
-This README outlines the details of collaborating on this Ember addon.
+[![Embadge](https://embadge.io/b/3.svg)](https://embadge.io/badges/3)
 
-## Installation
+***This addon is still under development.***
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
-
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+This addon aims to simplify remote error reporting in ember apps.
